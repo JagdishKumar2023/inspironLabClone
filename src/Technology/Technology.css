@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.technoContainer {
+    border: 3px solid red;
+    height: 200px;
+}

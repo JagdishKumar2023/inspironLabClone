@@ -10,7 +10,7 @@
 
 .heading {
     font-weight: bold;
-    color: #000;
+    color: #27830b;
 }
 
 .sectionContainer {
@@ -20,8 +20,9 @@
 }
 
 .cardContainer {
+    border-radius: 10px;
     width: 570px;
-    height: 400px;
+    height: 431px;
     background-color: black;
     display: flex;
     flex-direction: column;
@@ -32,11 +33,11 @@
     color: white;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     position: relative;
+
 }
 
 .cardContainer h4 {
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 20px;
     color: white;
     margin-bottom: 10px;
 }
@@ -45,9 +46,8 @@
     width: 300px;
     height: 400px;
     margin: 10px auto;
-    margin-right: 50px;
-    /* border: 2px solid red; */
-
+    margin-right: 20px;
+    border-radius: 20px;
 }
 
 button {
