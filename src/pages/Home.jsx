@@ -1,4 +1,5 @@
 import Aside from "../Aside/Aside";
+import CommentSilder from "../CommentSilder/CommentSilder";
 import Navbar from "../components/navbar/Navbar";
 import Header from "../Header/Header";
 import Section from "../Section/Section";
@@ -15,6 +16,7 @@ const Home = () => {
             <div style={{color: "white", textAlign: "center"}}>
             <Silder/>
             <Technology/>
+            {/* <CommentSilder/> */}
             </div>
         </div>
     )

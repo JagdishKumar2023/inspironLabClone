@@ -11,6 +11,7 @@ const Slider = () => {
             contentRef.current.style.animationPlayState = "paused";
         }
     };
+
     
     const handleMouseOut = () => {
         if (contentRef.current) {
